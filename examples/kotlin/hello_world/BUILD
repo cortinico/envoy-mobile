@@ -1,12 +1,12 @@
 licenses(["notice"])  # Apache 2
 
-load("//bazel:envoy_build_system.bzl", "envoy_package")
+load("@envoy//bazel:envoy_build_system.bzl", "envoy_package")
 load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kt_android_library")
 
 envoy_package()
 
 android_binary(
-    name = "hello_envoy_kt",
+    name = "hello_envoy_kotlin",
     custom_package = "io.envoyproxy.envoymobile.helloenvoykotlin",
     manifest = "AndroidManifest.xml",
     deps = [
@@ -17,10 +17,7 @@ android_binary(
 kt_android_library(
     name = "hello_envoy_kt_lib",
     srcs = glob([
-        "MainActivity.kt",
-        "Response.kt",
-        "ResponseRecyclerViewAdapter.kt",
-        "ResponseViewHolder.kt",
+        "*.kt",
     ]),
     custom_package = "io.envoyproxy.envoymobile.helloenvoykotlin",
     manifest = "AndroidManifest.xml",

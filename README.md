@@ -5,6 +5,9 @@ Mobile client networking libraries based on the [Envoy](https://www.envoyproxy.i
 ## Documentation
 
 - [Official documentation](https://envoy-mobile.github.io/docs/envoy-mobile/latest/index.html)
+- [Project website](https://envoy-mobile.github.io)
+- [Getting started & demos](https://envoy-mobile.github.io/docs/envoy-mobile/latest/start/start.html)
+- [Living roadmap](https://github.com/lyft/envoy-mobile/issues/4)
 
 ## Contact
 
@@ -26,8 +29,8 @@ Contributing to Envoy Mobile is fun! To get started:
 
 ## Copyright
 
-Envoy Mobile is licensed under the Apache 2.0 license and copyrighted by Lyft. See LICENSE for
-terms. Envoy and the Envoy logo are copyrighted by the *Envoy proxy authors* and the
-[Cloud Native Computing Foundation](https://cncf.io). The Envoy name is used with permission from
-the CNCF under the assumption that if this project finds traction it will be donated to the
-Envoy proxy project.
+Envoy Mobile is licensed under the Apache 2.0 license and copyrighted by Lyft. See LICENSE for terms.
+Lyft has express permission to use the Envoy name and the Envoy logo, which are otherwise owned by
+The Linux Foundation (TLF). The Envoy name is used with permission from Linux and the Cloud Native
+Computing Foundation notwithstanding the assumption that if this project finds traction it will be
+donated to the Envoy proxy project.

@@ -11,7 +11,7 @@ public class Envoy {
 
   public void load() { System.loadLibrary("envoy_jni"); }
 
-  public void run(Context context, String config) {
+  public void run(final Context context, final String config) {
     Thread thread = new Thread(new Runnable() {
       @Override
       public void run() {
